@@ -14,7 +14,7 @@
         android:layout_gravity="center"
         android:layout_margin="16dp"
         android:layout_marginTop="40dp"
-        android:entries="@array/beer_colors"/>
+        android:entries="@array/beer_colors" />
 
     <Button
         android:id="@+id/find_beer"
@@ -22,7 +22,8 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_margin="16dp"
-        android:text="@string/find_beer"/>
+        android:text="@string/find_beer"
+        android:onClick="onClickFindBeer"/>
 
     <TextView
         android:id="@+id/brands"
